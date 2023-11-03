@@ -1,0 +1,27 @@
+.FORMULARIO{
+    color: blue;
+    align-self: center;
+    font-size: 200%;
+    text-align: center;
+
+}
+.Cabezera{
+    background-color: black;
+    border: mediumvioletred 5px solid;
+}
+body{
+    background-color: black;
+    color: blue;
+    text-align: center;
+}
+.Datospersonales{
+    text-align: center;
+    font-size: 200%;
+    border: blue 5px solid;
+}
+div{
+    border: mediumvioletred 5px solid;
+}
+ul{
+    list-style-type: none;
+}
