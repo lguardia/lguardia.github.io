@@ -15,23 +15,25 @@
             <li><a href=""></a></li>
         </ul>
     </nav>
-    <fieldset class="Cabezera">
-        <p class="FORMULARIO">FORMULARIO</p>
-    </fieldset>
-    <fieldset>
-    <div>
-        <legend class="Datospersonales">Datos personales</legend>
-        <p> Nombre: <input type="text" name="Nombre" required></p>
-        <p> Apellidos: <input type="text" name="Apellidos" required></p>
-        <p> Correo electronico: <input type="email" name="Correo"></p>
-        <p>edad <input type="number" min="17" max="40" name="edad" required></p>
+    <fieldset class="Datospersonales">
+    <p class="FORMULARIO">FORMULARIO</p>
+    <div class="Datospersonales1">
+        <legend >Datos personales</legend>
+        <input class="botones" type="text" name="Nombre" required placeholder="Introduce el nombre"></p>
+        <input class="botones" type="text" name="Apellidos" required placeholder="Introduce tus apellidos"></p>
+        <input class="botones" type="email" name="Correo" placeholder="Introduce tu email"></p>
+        <input class="botones" type="number" min="17" max="40" name="edad" placeholder="Introduce tu edad" required></p>
     </div>
-    <div>
+    <div class="Seleccionables">
+        Elige el color que te identifica: <input type="color" name="color" value="#ff0000">
         <p> Eres un bot:
             <input type="radio" name="SI" value="Si"> Si
             <input type="radio" name="No" value="No"> No
         </p>
+        <p>Estoy de acuerdo con  <a href="#">Terminos y condiciones</a></p>
+        <input class="Registrar" type="submit" value="Registrar">
     </div>
+       
 </fieldset>
 
 </body>

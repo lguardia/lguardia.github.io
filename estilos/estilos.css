@@ -1,27 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .FORMULARIO{
-    color: blue;
+    color: black;
     align-self: center;
     font-size: 200%;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #24303c;
+}
 
-}
-.Cabezera{
-    background-color: black;
-    border: mediumvioletred 5px solid;
-}
 body{
-    background-color: black;
-    color: blue;
+    background-color: blue;
+    color: black;
     text-align: center;
+    
 }
 .Datospersonales{
     text-align: center;
     font-size: 200%;
     border: blue 5px solid;
+    
 }
 div{
-    border: mediumvioletred 5px solid;
+    border: black 5px solid;
 }
 ul{
     list-style-type: none;
+    color: black;
+    font-size: 150%;
+}
+.Datospersonales1{
+    background: #24303c;
+}
+.Seleccionables{
+    background: #24303c;
+}
+.botones{
+    width: 25%;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 5px solid blue;
+}
+.registrar{
+    background-color: blue;
+    width: 25%;
+    padding: 12px;
 }
