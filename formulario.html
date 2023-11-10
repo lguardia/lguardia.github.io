@@ -9,32 +9,45 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </nav>
-    <fieldset class="Datospersonales">
-    <p class="FORMULARIO">FORMULARIO</p>
-    <div class="Datospersonales1">
-        <legend >Datos personales</legend>
-        <input class="botones" type="text" name="Nombre" required placeholder="Introduce el nombre"></p>
-        <input class="botones" type="text" name="Apellidos" required placeholder="Introduce tus apellidos"></p>
-        <input class="botones" type="email" name="Correo" placeholder="Introduce tu email"></p>
-        <input class="botones" type="number" min="17" max="40" name="edad" placeholder="Introduce tu edad" required></p>
-    </div>
-    <div class="Seleccionables">
-        Elige el color que te identifica: <input type="color" name="color" value="#ff0000">
-        <p> Eres un bot:
-            <input type="radio" name="SI" value="Si"> Si
-            <input type="radio" name="No" value="No"> No
-        </p>
-        <p>Estoy de acuerdo con  <a href="#">Terminos y condiciones</a></p>
-        <input class="Registrar" type="submit" value="Registrar">
-    </div>
-       
-</fieldset>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        <fieldset class="Datospersonales">
+            <p class="FORMULARIO">FORMULARIO</p>
+            <div class="Datospersonales1">
+                <legend>Datos personales</legend>
+                <p><input class="botones" type="text" name="Nombre" required placeholder="Introduce el nombre"></p>
+                <p><input class="botones" type="text" name="Apellidos" required placeholder="Introduce tus apellidos"></p>
+                <p><input class="botones" type="email" name="Correo" placeholder="Introduce tu email"></p>
+                <p><input class="botones" type="number" min="17" max="40" name="edad" placeholder="Introduce tu edad" required></p>
+                <p><input class="botones" type="password" name="contraseña" required placeholder="Introduzca nueva contraseña"></p>
+            </div>
+            <div class="Seleccionables">
+                Elige el color que te identifica: <input type="color" name="color" value="#ff0000">
+                <p> Eres un bot:
+                    <input type="radio" name="SI" value="Si"> Si
+                    <input type="radio" name="No" value="No"> No
+                </p>
+                <p>Indique que tan bueno es el formulario (Malo,Regular,Perfecto) <input type="range" name="rango"
+                        min="1" max="3" list="lista">
+                    <datalist id="lista">
+                        <option value="1" label="Malo"></option>
+                        <option value="2" label="Regular"></option>
+                        <option value="3" label="Perfecto"></option>
+                    </datalist>
+                </p>
+
+                <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+                <input class="Enviar" type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </main>
+
+
 
 </body>
 
