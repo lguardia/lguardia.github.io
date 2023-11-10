@@ -14,7 +14,7 @@
 }
 
 body{
-    background-image: url("../img/fondo2.jpg");
+    background-image: url("../img/fondo3.jpg");
     color: black;
     text-align: center;
     
@@ -22,7 +22,7 @@ body{
 .Datospersonales{
     text-align: center;
     font-size: 200%;
-    border: blue 5px solid;
+    border: black 1px solid;
     
 }
 div{
