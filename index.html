@@ -1,91 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            display: grid;
-            grid-template-areas:
-                "header header header"
-                "sidebar1 main sidebar2"
-                "footer footer footer";
-            grid-template-rows: auto 1fr auto;
-            min-height: 100vh;
-        }
-
-        header,
-        footer {
-            grid-area: header;
-            background-color: blue;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-       aside {
-        grid-area: sidebar1;
-        background-color: black;
-        padding: 20px;
+       body {
+           margin: 0;
+           font-family: Arial, Helvetica, sans-serif;
+           display: grid;
+           grid-template-areas:
+               "header header header"
+               "sidebar1 main sidebar2"
+               "footer footer footer";
+           grid-template-rows: auto 1fr auto;
+           min-height: 100vh;
        }
 
+       header,
+       footer {
+           grid-area: header;
+           background-color: blue;
+           color: #fff;
+           padding: 10px;
+           text-align: center;
+       }
 
-        main {
-            grid-area: main;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        aside:last-child{
-            grid-area: sidebar2;
-        }
+      aside {
+       grid-area: sidebar1;
+       background-color: black;
+       padding: 20px;
+      }
+      aside, ul{
+        display: flex;
+        flex-direction: column;
+      }
 
-        footer {
-            grid-area: footer;
-            background-color: blue;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+       main {
+           grid-area: main;
+           padding: 20px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           border: 5px  solid   black;
+       }
+       aside:last-child{
+           grid-area: sidebar2;
+       }
+
+       footer {
+           grid-area: footer;
+           background-color: blue;
+           color: #fff;
+           padding: 10px;
+           text-align: center;
+       }
+       nav{
+           display: flex;
+           flex-direction:row-reverse;
+           justify-content: center;
+           align-items: center;
+       }
+       nav,h1{
+        margin: 5px;
+       }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Proyecto</h1>
-        <nav>
-            <h1><a href="formulario.html">Formulario</a></h1> <h1><a href="curriculum.html">curriculum</a></h1>
-            <h1><a href="video.html">Video</a></h1>
-        </nav>
+      <h1>Proyecto</h1>
+      <nav>
+        <h1><a href="formulario.html">Formulario</a></h1>
+        <h1><a href="curriculum.html">curriculum</a></h1>
+        <h1><a href="video.html">Video</a></h1>
+      </nav>
     </header>
     <sidebar1>
-        <h2>lateral izquierdo</h2>
+      <h2>lateral izquierdo</h2>
     </sidebar1>
     <main>
-        <h2>Caracteristicas personales</h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <h2>Cosas que no dejaria de hacer</h2>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
+      <h2>Caracteristicas personales</h2>
+      <ul>
+        <li>Perseverante</li>
+        <li>Deportista</li>
+        <li>Con sentido del humor</li>
+      </ul>
+      <h2>Cosas que no dejaria de hacer</h2>
+      <ul>
+        <li>Hacer deporte</li>
+        <li>Escuchar musica</li>
+      </ul>
     </main>
     <sidebar2>
-        <h2>lateral derecho</h2>
+      <h2>Pagina web que suelo usar</h2>
+      <li></li>
     </sidebar2>
-    <footer>
-        Lionneth Guardia Suarez mi pagina personal
-    </footer>
-</body>
-
+    <footer>Lionneth Guardia Suarez mi pagina personal</footer>
+  </body>
 </html>
