@@ -1,72 +1,9 @@
-<<<<<<< HEAD
 * {
-=======
-header{
-    align-items: center;
-}
-
-body {
-    font-family: Arial, sans-serif;
->>>>>>> d4bcbd2c9eef1600775b462fa085344339d4393a
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; 
-}
-
-main {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #add8e6; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-}
-
-nav a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #333; 
-}
-
-fieldset {
-    border: 1px solid #333; 
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #666; 
-}
-
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #fff; 
-    margin-bottom: 10px;
-}
-
-.botones {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
     box-sizing: border-box;
-    background-color: #333; 
-    color: #fff; 
-    border: none;
 }
 
-<<<<<<< HEAD
 body {
     font-family: 'Roboto', sans-serif;
     background: #000 url('ruta/a/tu/imagen/de/fondo/star-wars.jpg') no-repeat center center fixed;
@@ -131,57 +68,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-=======
-.Seleccionables p {
-    margin-bottom: 10px;
-}
-
-.Enviar {
-    background-color: #4caf50; 
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.Enviar:hover {
-    background-color: #45a049; 
-}
-.reset {
-    background-color: #eb1010; 
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.reset:hover {
-    background-color: #eb1010; 
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #fff; /* Blanco */
-}
-
-input[type="color"] {
-    vertical-align: middle;
-    margin-bottom: 10px;
-}
-
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-a {
-    color: #0066cc; /* Azul */
-}
-
-
-a:hover {
-    text-decoration: underline;
-}
->>>>>>> d4bcbd2c9eef1600775b462fa085344339d4393a
