@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #000 url('ruta/a/tu/imagen/de/fondo/star-wars.jpg') no-repeat center center fixed;
+    background: #000 url("/img/space.webp") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     margin: 0;
@@ -51,7 +51,7 @@ main {
 
 .sidebar-left,
 .sidebar-right {
-    background-color: #171717;
+    background-image: url("/img/space.webp") center center fixed;
 }
 
 main {
@@ -65,7 +65,7 @@ main h2 {
     margin-bottom: 15px;
 }
 
-.main ul,
+main ul,
 .sidebar-right ul {
     list-style-type: none;
     padding: 0;
@@ -75,8 +75,21 @@ main h2 {
 .sidebar-right li {
     margin-bottom: 10px;
 }
+div.columnas{
+    columns: 3;
+    column-gap: 10xp;
+    margin: 10px;
+    box-sizing: border-box;
+}
+div.columnas1{
+    columns: 3;
+    column-gap: 10xp;
+    margin: 10px;
+    box-sizing: border-box;
+}
 
-.footer {
+
+footer {
     background-color: #000;
     color: #ffc72b;
     text-align: center;
