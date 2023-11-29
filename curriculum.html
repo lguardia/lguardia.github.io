@@ -1,73 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        table{
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td{
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th{
-            background-color: #f2f2f2;
-        }
-        h2{
-            color: #333;
-        }
-        .imagen{
-            float: left;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/curriculum.css">
 </head>
+
 <body>
-    <h2>Curriculum</h2>
-    <h3>Informacion personal</h3>
-    <table>
-        <tr>
-            <th>Nombre</th>
-            <td>Tu nombre</td>
-        </tr>
-        <tr>
-            <th>Dirrecion</th>
-            <td>Tu Dirrecion</td>
-        </tr>
-        <tr>
-            <th>Telefono</th>
-            <td>Tu telefono</td>
-        </tr>
-        <tr>
-            <th>Correo</th>
-            <td>Tu correo</td>
-        </tr>
-        <tr>
-            <th>Foto</th>
-            <td><img src="img/fondo2.jpg" alt="imagen" class="imagen" width="120" height="120"></td>
-        </tr>
-    </table>
-    <h3>Experencia laboral</h3>
-    <table>
-        <tr>
-            <th>Empresa</th>
-            <th>Cargo</th>
-            <th>Periodo</th>
-        </tr>
-        <tr>
-            <td>Nombre de la empresa</td>
-            <td>tu cargo</td>
-            <td>Mes/año - mes/año</td>
-        </tr>
-    </table>
+    <main>
+        <nav>
+            <h1><a href="formulario.html">Formulario</a></h1>
+            <h1><a href="curriculum.html">Curriculum</a></h1>
+            <h1><a href="video.html">Video</a></h1>
+        </nav>
+        <div class="container">
+            <aside class="sidebar-left">
+                <h2>Lateral Izquierdo</h2>
+            </aside>
+            <section class="main">
+                <h2>Información Personal</h2>
+                <table>
+                    <tr>
+                        <td><strong>Nombre:</strong></td>
+                        <td>John Doe</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Edad:</strong></td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong></td>
+                        <td>john.doe@example.com</td>
+                    </tr>
+                </table>
+
+                <h2>Educación</h2>
+                <table>
+                    <tr>
+                        <td><strong>Grado:</strong></td>
+                        <td>Licenciatura en Informática</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Institución:</strong></td>
+                        <td>Universidad XYZ</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Año de Graduación:</strong></td>
+                        <td>2015</td>
+                    </tr>
+                </table>
+
+                <h2>Experiencia Deportiva</h2>
+                <p>Apasionado por el deporte desde joven, he participado en diversas competiciones y eventos deportivos. Mi enfoque en la salud y el bienestar me ha llevado a integrar el deporte en mi vida diaria.</p>
+            </section>
+            <aside class="sidebar-right">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Programación</li>
+                    <li>Diseño Web</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Deporte</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <footer>Lionneth Guardia Suarez - Mi Página Personal</footer>
 </body>
+
 </html>
