@@ -91,10 +91,7 @@ table{
     
     width: 500px;
 }
-.Habilidades{
-    columns: 3
-    column-gap: 10xp;
-    margin: 10px;
-    box-sizing: border-box;
-
+.video{
+    height: auto;
 }
+
