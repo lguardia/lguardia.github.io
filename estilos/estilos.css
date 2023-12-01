@@ -23,7 +23,7 @@ main {
     display: flex;
 }
 
-.sidebar-left,
+.sidebar-left,*
 .sidebar-right {
     flex: 1;
     background-image: url("/img/space.webp") center center fixed;
