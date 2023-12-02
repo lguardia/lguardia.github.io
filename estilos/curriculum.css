@@ -47,7 +47,13 @@ nav a {
     box-sizing: border-box;
     margin: 0 10px;
 }
-
+.Yo{
+    width: 200xp;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
 .sidebar-left,
 .sidebar-right {
     background-image: url("/img/space.webp") center center fixed;

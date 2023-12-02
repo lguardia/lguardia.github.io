@@ -20,10 +20,20 @@
 
     <main>
         <aside class="sidebar-left">
-            <h2>Lateral Izquierdo</h2>
+            <h2>Datos sobre mi</h2>
+            <ul>
+              <li>Direccion: Felix Rodriguez De la fuente</li>
+              <li>Codigo postal: 28030</li>
+              <li>Fecha de nacimiento: 08/08/1998</li>
+            </ul>
+            <h2>Redes Sociales</h2>
+            <img src="img/insta.jpg" alt="insta">
+            <img src="img/tw.jpg" alt="Tw">
         </aside>
 
         <form class="formulario">
+            <legend>Datos personales</legend>
+            <fieldset>
             <div class="campo">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
@@ -45,7 +55,7 @@
             </div>
 
             <div class="campo">
-                <label for="fecha">Fecha:</label>
+                <label for="fecha">Edad:</label>
                 <input type="date" id="fecha" name="fecha" required>
             </div>
 
@@ -53,7 +63,7 @@
                 <label for="color">Color:</label>
                 <input type="color" id="color" name="color" value="#ff0000">
             </div>
-
+            </fieldset>
             <div class="campo">
                 <label for="checkbox">¿Quieres guardar?</label>
                 <input type="checkbox" id="checkbox" name="checkbox" value="1">
@@ -75,12 +85,12 @@
             </div>
 
             <div class="campo">
-                <label for="url">URL:</label>
+                <label for="url">Añadir URL:</label>
                 <input type="url" id="url" name="url" required>
             </div>
 
             <div class="campo">
-                <label for="textarea">Textarea:</label>
+                <label for="textarea">Escriba que podria mejorar en el cuestionario:</label>
                 <textarea id="textarea" name="textarea" rows="4" cols="50" required></textarea>
             </div>
 
