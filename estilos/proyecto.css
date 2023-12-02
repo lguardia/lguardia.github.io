@@ -52,6 +52,7 @@ main {
 .sidebar-left,
 .sidebar-right {
     background-image: url("/img/space.webp") center center fixed;
+    color: #ffc72b;
 }
 
 main {
@@ -69,6 +70,9 @@ main ul,
 .sidebar-right ul {
     list-style-type: none;
     padding: 0;
+    color: #ffc72b;
+    font-size: 20px;
+    
 }
 
 .main li,
@@ -89,15 +93,21 @@ div.columnas1{
 }
 
 
+.fotos{
+    width: 60xp;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 2px black solid
+}
 footer {
     background-color: #000;
     color: #ffc72b;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
 }
 
 

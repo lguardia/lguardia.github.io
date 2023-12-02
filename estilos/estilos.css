@@ -18,7 +18,19 @@ header {
     padding: 10px;
     text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+nav a {
+    color: #ffc72b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
 main {
     display: flex;
 }
@@ -29,6 +41,7 @@ main {
     background-image: url("/img/space.webp") center center fixed;
     padding: 20px;
     box-sizing: border-box;
+    color: #ffc72b;
 }
 
 .formulario {
