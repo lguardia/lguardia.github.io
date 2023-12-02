@@ -72,13 +72,16 @@ main h2 {
     margin-bottom: 15px;
 }
 
-.main ul,
+.container ul,
 .sidebar-right ul {
     list-style-type: none;
     padding: 0;
+    color: #ffc72b;
+    font-size: 20px;
+
 }
 
-.main li,
+.container li,
 .sidebar-right li {
     margin-bottom: 10px;
 }

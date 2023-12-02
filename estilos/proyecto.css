@@ -84,6 +84,7 @@ div.columnas{
     column-gap: 10xp;
     margin: 10px;
     box-sizing: border-box;
+    
 }
 div.columnas1{
     columns: 3;
@@ -91,7 +92,12 @@ div.columnas1{
     margin: 10px;
     box-sizing: border-box;
 }
-
+.container p{
+    list-style-type: none;
+    padding: 0;
+    color: #ffc72b;
+    font-size: 20px;
+}
 
 .fotos{
     width: 60xp;
