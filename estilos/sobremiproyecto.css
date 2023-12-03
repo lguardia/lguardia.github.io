@@ -34,6 +34,7 @@ nav a {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1200px;
     margin: 20px auto;
@@ -41,30 +42,23 @@ nav a {
 
 .sidebar-left,
 .sidebar-right,
-.main {
+main {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
     margin: 0 10px;
 }
-.Yo{
-    width: 200xp;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    
-}
+
 .sidebar-left,
 .sidebar-right {
     background-image: url("/img/space.webp") center center fixed;
-  
+    color: #ffc72b;
 }
 
-.main {
+main {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #000;
     border-radius: 5px;
-    color: #000;
 }
 
 main h2 {
@@ -72,35 +66,59 @@ main h2 {
     margin-bottom: 15px;
 }
 
-.container ul,
+main ul,
 .sidebar-right ul {
     list-style-type: none;
     padding: 0;
     color: #ffc72b;
     font-size: 20px;
-
+    
 }
 
-.container li,
+.main li,
 .sidebar-right li {
-   
+    margin-bottom: 10px;
+}
+.mainproyecto{
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div.columnas{
+    columns: 3;
+    column-gap: 10xp;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+div.columnas1{
+    columns: 3;
+    column-gap: 10xp;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.notas{
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.layout{
+    width: 190xp;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 2px black solid
 }
 
 footer {
-   background-color: #000;
+    background-color: #000;
     color: #ffc72b;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-table{
-    
-    width: 500px;
-}
-.video{
-    height: auto;
 }
 
