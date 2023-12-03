@@ -1,112 +1,101 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #000 url("/img/space.webp") no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: #000 url("/img/space.webp") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
 }
 
 header {
-    background-color: #000;
-    padding: 10px;
-    text-align: center;
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
-    color: #ffc72b;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.2em;
-    text-transform: uppercase;
+  color: #ffc72b;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 .sidebar-left,
 .sidebar-right,
 .main {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 0 10px;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 10px;
 }
-.Yo{
-    width: 200xp;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    
-}
-.sidebar-left,
-.sidebar-right {
-    background-image: url("/img/space.webp") center center fixed;
-  
+.Yo {
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .main {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000;
-    border-radius: 5px;
-    color: #000;
-    font-size: medium;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: normal;
-    cursor:default;
-    text-transform: capitalize;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-size: medium;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  cursor: default;
+  text-transform: capitalize;
 }
 
 main h2 {
-    color: #000;
-    margin-bottom: 15px;
+  color: #000;
+  margin-bottom: 15px;
 }
 
 .container ul,
 .sidebar-right ul {
-    list-style-type: none;
-    padding: 0;
-    color: #ffc72b;
-    font-size: 20px;
-
+  list-style-type: none;
+  padding: 0;
+  color: #ffc72b;
+  font-size: 20px;
 }
 
 .container li,
 .sidebar-right li {
-   
 }
 
 footer {
-   background-color: #000;
-    color: #ffc72b;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #000;
+  color: #ffc72b;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-table{
-    
-    width: 500px;
+table {
+  width: 500px;
 }
-.video{
-    height: auto;
+.video {
+  height: auto;
 }
-

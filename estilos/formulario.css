@@ -1,85 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url("/img/space.webp") no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #000 url('/img/space.webp') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
+  font-family: "Roboto", sans-serif;
+  background: #000 url("/img/space.webp") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
 }
 
 header {
-    background-color: #000;
-    color: #ffc72b;
-    padding: 10px;
-    text-align: center;
+  background-color: #000;
+  color: #ffc72b;
+  padding: 10px;
+  text-align: center;
 }
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
-    color: #ffc72b;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.2em;
-    text-transform: uppercase;
+  color: #ffc72b;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 main {
-    display: flex;
+  display: flex;
 }
 
-.sidebar-left,*
+.sidebar-left,
 .sidebar-right {
-    flex: 1;
-    background-image: url("/img/space.webp") center center fixed;
-    padding: 20px;
-    box-sizing: border-box;
-    color: #ffc72b;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #ffc72b;
 }
 
 .formulario {
-    flex: 2;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 20px;
-    border: 1px solid #000;
-    border-radius: 5px;
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .formulario .campo {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .formulario label {
-    display: block;
-    margin-bottom: 5px;
-    color: #000;
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
 }
 
 .formulario input,
 .formulario textarea,
 .formulario button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
-    background-color: #000;
-    color: #ffc72b;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #000;
+  color: #ffc72b;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
