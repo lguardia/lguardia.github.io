@@ -94,16 +94,13 @@ div.columnas1{
     margin: 10px;
     box-sizing: border-box;
 }
-.notas{
-    color: #000;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: small;
-}
+
 .container p{
     list-style-type: none;
     padding: 0;
     color: #ffc72b;
     font-size: 20px;
+    letter-spacing: normal;
 }
 
 
